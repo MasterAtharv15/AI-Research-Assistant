@@ -19,7 +19,7 @@ def test_query_route_returns_answer_and_matches(tmp_path, monkeypatch):
 
     assert response.status_code == 200
     assert response.json()["answer"].startswith("Based on the uploaded document")
-    assert response.json()["matches"] == ["alpha beta"]
+    assert response.json()["matches"] == [{"chunk_id": 0, "text": "alpha beta"}]
 
 
 def test_query_route_returns_404_for_missing_chunks(tmp_path, monkeypatch):
@@ -44,11 +44,11 @@ def test_query_route_returns_query_and_matches_in_payload(tmp_path, monkeypatch)
     )
 
     assert response.status_code == 200
-    assert response.json() == {
-        "query": "alpha",
-        "answer": "Based on the uploaded document:\n\nalpha beta",
-        "matches": ["alpha beta"],
-    }
+    payload = response.json()
+    assert payload["query"] == "alpha"
+    assert payload["answer"] == "Based on the uploaded document:\n\nalpha beta"
+    assert payload["matches"] == [{"chunk_id": 0, "text": "alpha beta"}]
+    assert isinstance(payload["session_id"], str)
 
 
 def test_query_route_returns_500_for_unexpected_errors(tmp_path, monkeypatch):
