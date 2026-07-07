@@ -4,9 +4,9 @@ from __future__ import annotations
 
 from fastapi import APIRouter, File, HTTPException, UploadFile
 
-from backend.services.file_service import save_uploaded_file
-from backend.services.pdf_service import extract_text, PdfExtractionError
 from backend.services.chunk_service import chunk_text
+from backend.services.file_service import save_uploaded_file
+from backend.services.storage_service import save_chunks
 
 router = APIRouter()
 
@@ -19,8 +19,11 @@ async def upload_file(file: UploadFile = File(...)) -> dict[str, object]:
 
     saved_path = save_uploaded_file(file)
     try:
+        from backend.services.pdf_service import PdfExtractionError, extract_text
+
         extracted_text = extract_text(saved_path)
         chunks = chunk_text(extracted_text)
+        save_chunks(file.filename, chunks)
     except PdfExtractionError as exc:
         raise HTTPException(status_code=500, detail=f"PDF extraction failed: {exc}") from exc
     except Exception as exc:  # pragma: no cover - defensive

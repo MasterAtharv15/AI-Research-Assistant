@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 
+from backend.routes.query import router as query_router
 from backend.routes.upload import router as upload_router
 
 app = FastAPI(title="AI Research Assistant")
@@ -18,3 +19,4 @@ def health_check() -> dict[str, str]:
 
 
 app.include_router(upload_router)
+app.include_router(query_router)
