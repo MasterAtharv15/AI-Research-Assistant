@@ -56,7 +56,7 @@ def generate_answer(
         "Answer:"
     )
 
-    payload: dict[str, Any] = {"model": "llama3.2", "prompt": prompt, "stream": False}
+    payload: dict[str, Any] = {"model": "llama3.1:8b", "prompt": prompt, "stream": False}
 
     try:
         response = requests.post(_OLLAMA_URL, json=payload, timeout=30)

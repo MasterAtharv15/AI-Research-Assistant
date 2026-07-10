@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "Course Name: Relational Database Management System Course Code: T3239 Faculty: Computer Studies Course Credit: 4 Course Level: 2 Sub-Committee (Specialization): Software Solutions Management Learning Objectives: The course is focused on understanding the importance of real life data and challenges in tackling the huge amount of data in business applications. This course will help the students to learn the basic concepts of data, databases and management of databases. And it will help to simulate",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 1,
+    "text": "agement of databases. And it will help to simulate these concept with real life application. Page: 1 Books Recommended: Book Author Publisher Relational Database Management Systems by Ivan Bayross Fundamentals of Database Systems by Navathe Introduction to Database Systems by C J Date Database System Concepts by Korth and Silberschatz Course Outline: Sr. No. Topic Actual Teaching Hours Contact Hours Equivale nce 1 Introduction to Databases 2 0 Data Types Organization and Applications Database",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 2,
+    "text": "Data Types Organization and Applications Database Definition Evolution Database Management Structure Limitations of traditional file processing systems Advantages and disadvantages of DBMS Users of DBMS 2 Database System Concepts and Architecture 3 0 Database architecture and Environment Components of DBMS functions Architecture Physical Logical and View Data languages DDL & DML Schemas Life cycle of Database system development Functions of DBMS 3 Conceptual Database Modeling 2 0 Concepts",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 3,
+    "text": "f DBMS 3 Conceptual Database Modeling 2 0 Concepts &Applications Types of Data Models Hierarchical Network Relational, Object Oriented 4 Data Modeling Using the Entity -Relationship Model 10 0 Enhanced Entity-Relationship and UML Modeling Entity Relationship model concepts of entity entity sets attributes domains Existence dependency Candidate/Primary/ composite keys Strong and Weak entities Cardinality E-R model : symbols specialization generalization aggregation 5 Relational Database Systems",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 4,
+    "text": "lization aggregation 5 Relational Database Systems 10 0 Characteristics Concepts : Relation Attribute Tuple Domain Relational Schemas Relational constraints Entity, Domain Null Key and Referential Normalization : 1NF , 2NF 3NF BCNF and rules 6 Introduction to Transaction Processing Concepts and Theory 5 0 ACID properties Introduction to Schedule Concept of Serializability 7 Concurrency Control Techniques 6 0 Database recovery : Need Techniques log based check point differed and immediate updates",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 5,
+    "text": "g based check point differed and immediate updates shadowing Catastrophic and non-catastrophic failures Recovery in multi-database environments Two phase commit protocol 8 Database security 3 0 Type of security legal and ethical issues System policies levels of security : Physical Os Network DBMS Privileges : Grant and Revoke 9 Advances in Databases 3 0 Active databases : ECA model , Data warehousing, Data Mining OLAP OLTP 10 Introduction to 2 0 Architecture Processes (Background list), 11",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 6,
+    "text": "o 2 0 Architecture Processes (Background list), 11 Introduction to SQL 2 0 DDL: Create table Alter table Drop table DML: Insert update delete ,select DTL (TCL) : grant revoke. With Practice examples 12 Select comand with all clauses 5 0 Table Constraint Definition Domain Entity & Referential integrity SQL functions , (Union, intersect , minus), Functions (Date Numeric Character Conversion Miscellaneous Group function) Group by clause Having Clause 13 Join 4 0 relating data through join Concept",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 7,
+    "text": "use 13 Join 4 0 relating data through join Concept Join Theory (Simple join equi join non equi join Self join Outer join), Table aliases Query 14 Introduction to Sub Queries 3 0 Total 60 0 Pre Requisites: Basic database concepts Evaluation: Class test Quiz Assignment Viva Pedagogy: Lectures Lab sessions",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  }
+]

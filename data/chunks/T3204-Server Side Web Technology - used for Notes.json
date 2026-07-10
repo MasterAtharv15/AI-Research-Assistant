@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "Sub Committee for Curriculum Development Course Name: Server Side Web Technology Course Code: T3204 (UG/PG): UG Number of Credits: 4 Level: 3 Learning Objective(s): · Be able to gather requirements for a web application · Design an efficient, logical program · Utilize PHP built-in functions in their web applications Pedagogy: • Classroom Sessions • Lab Sessions Pre-requisites: HTML, Javascript Course Outline Sr. No. Topic Name No. Of Hrs. 1 Introduction: Introduction to database 8 2 Introduction",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 1,
+    "text": "duction: Introduction to database 8 2 Introduction to PHP: History, Comparison to other languages 2 3 PHP Basics: Creating PHP scripts, Variables, constants, Operators, Control structures, iteration, Interfacing with HTML forms 10 4 Numbers, Dates, Arrays and Strings: Number manipulation, Date and Time, Various array types, Formatting, joining, splitting, comparing, and other string manipulations, Regular expressions, Functions 18 5 System Interaction: Opening, closing, writing to, and reading",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 2,
+    "text": "raction: Opening, closing, writing to, and reading from data files, 7 Executing system commands 6 Maintaining Sessions and cookies:Introduction, Creating / Deleting session variable, Saving sessions, Setting session name 10 7 Project: Simple Project using PHP & MySQL 5 Total 60 Book Recommended: 1. Programming PHP, Rasmus Lerdorf, Kevin Tatroe, 2. Programming PHP - O'Reilly Media Research Papers/Articles recommended for reading: Suggested Evaluation Methods: ⚫ On-line quizzes, ⚫ Written exam, ⚫",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  },
+  {
+    "chunk_id": 3,
+    "text": "tion Methods: ⚫ On-line quizzes, ⚫ Written exam, ⚫ Practical exam ⚫ Assignments and Mini Project Parallel/Similar courses the existing curriculum: S.No. Name of the course Institute where it was offered Name of Member Ms Minal Abhyankar Designation Junior Lecturer Org. / Inst. SICSR Signature Name of the Expert: Signature: Date:",
+    "embedding": [
+      0.01,
+      0.02,
+      0.03
+    ]
+  }
+]
